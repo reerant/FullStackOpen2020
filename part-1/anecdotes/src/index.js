@@ -14,18 +14,17 @@ const RandomAnecdote = ({ anecdote, votes }) => {
   );
 };
 
-//render most popular anecdote by votes
-const MostPopularAnecdote = ({ anecdote }) => {
-  if (anecdote.votes === 0) {
+//render the most popular anecdote by votes
+const MostPopularAnecdote = ({ anecdoteObj }) => {
+  if (anecdoteObj.votes === 0) {
     return <div>No votes yet.</div>;
-  } else {
-    return (
-      <>
-        <div>{anecdote.anecdote}</div>
-        <div>Has {anecdote.votes} votes.</div>
-      </>
-    );
   }
+  return (
+    <>
+      <div>{anecdoteObj.anecdote}</div>
+      <div>Has {anecdoteObj.votes} votes.</div>
+    </>
+  );
 };
 
 //render button
@@ -64,7 +63,6 @@ const App = ({ anecdotes }) => {
     const index = votes.indexOf(biggestNumber);
     const text = anecdotes[index];
     return { anecdote: text, votes: biggestNumber };
-   
   };
 
   return (
@@ -74,7 +72,7 @@ const App = ({ anecdotes }) => {
       <Button onClick={voteAnecdote} btnText="Vote" />
       <Button onClick={setRandomAnecdote} btnText="Next Anecdote" />
       <Header header={header2} />
-      <MostPopularAnecdote anecdote={getMostPopular()} />
+      <MostPopularAnecdote anecdoteObj={getMostPopular()} />
     </>
   );
 };

@@ -30,23 +30,22 @@ const Statistics = ({ good, neutral, bad, all, avg, positive }) => {
         <p>No feedback given.</p>
       </div>
     );
-  } else
+  }
   //feedbacks are given
-    return (
-      <table>
-        <StatisticLine text="Good" value={good} />
-        <StatisticLine text="Neutral" value={neutral} />
-        <StatisticLine text="Bad" value={bad} />
-        <StatisticLine text="All" value={all} />
-        <StatisticLine text="Average" value={avg} />
-        <StatisticLine text="Positive" value={positive + "%"} />
-      </table>
-    );
+  return (
+    <table>
+      <StatisticLine text="Good" value={good} />
+      <StatisticLine text="Neutral" value={neutral} />
+      <StatisticLine text="Bad" value={bad} />
+      <StatisticLine text="All" value={all} />
+      <StatisticLine text="Average" value={avg} />
+      <StatisticLine text="Positive" value={positive + "%"} />
+    </table>
+  );
 };
 
 //render the app
 const App = () => {
-  // save clicks of each button to own state
   const [good, setGood] = useState(0);
   const [neutral, setNeutral] = useState(0);
   const [bad, setBad] = useState(0);
@@ -81,7 +80,7 @@ const App = () => {
 
   //calculate the average of given values -> good=1, neutral=0, bad=-1
   const getAvg = () =>
-    values.length === 0 ? 0 : values.reduce((a, b) => a + b, 0) / values.length;
+    values.length === 0 ? 0 : values.reduce((accumulator, currentValue) => accumulator + currentValue, 0) / values.length;
 
   return (
     <div>
