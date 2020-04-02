@@ -1,3 +1,6 @@
+## Unicafe: exercises 1.6-1.11<br>
+User can give feedback by clicking buttons. Displays statistics about feedbacks.<br><br><br>
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
