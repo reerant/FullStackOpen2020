@@ -1,3 +1,6 @@
+## Anecdotes: exercises 1.12-1.14<br>
+Displays random anecdotes. User can vote for anecdote or get another anecdote. Displays also the most popular anecdote by votes.<br><br><br>
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
