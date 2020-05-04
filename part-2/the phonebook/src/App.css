@@ -1,0 +1,27 @@
+body {
+  margin-left: 40px;
+}
+
+.msg {
+  width: 50%;
+  color: rgb(20, 105, 39);
+  background: rgb(202, 235, 183);
+  font-size: 18px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.error {
+  width: 50%;
+  color: rgb(194, 9, 9);
+  background: rgb(231, 153, 139);
+  font-size: 18px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
