@@ -1,3 +1,6 @@
+## Course Information: exercises 2.1-2.5<br>
+Displays two courses with content info. Extended the code from the part 1. <br><br><br>
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
