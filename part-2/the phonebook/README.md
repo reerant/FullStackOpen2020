@@ -1,3 +1,15 @@
+## The Phonebook: exercises 2.6-2.11, 2.15-2.20 <br>
+A little phonebook app with CRUD functions.<br><br>
+Themes:<br>
+- JSON server
+- Axios
+- Modules
+- Effect hook
+- Promises and errors
+- Improved error message
+
+<br><br>
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
