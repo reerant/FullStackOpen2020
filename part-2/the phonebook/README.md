@@ -6,7 +6,7 @@ Themes:<br>
 - Modules
 - Effect hook
 - Promises and errors
-- Improved error message
+- Improved error messages
 
 <br><br>
 
