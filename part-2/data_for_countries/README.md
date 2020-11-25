@@ -1,3 +1,11 @@
+## Data for Countries: exercises 2.12-2.14 <br>
+Search for countries and see more info and weather data of a specific country.<br><br>
+Themes:<br>
+- REST API
+- Axios
+- Effect hook
+<br><br>
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
