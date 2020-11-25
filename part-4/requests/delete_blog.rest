@@ -1,0 +1,3 @@
+DELETE http://localhost:3001/api/blogs/xxxx
+Content-Type: application/json
+Authorization: bearer xxxx

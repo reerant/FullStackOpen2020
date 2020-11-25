@@ -9,7 +9,7 @@ const blogSchema = mongoose.Schema({
     type: String,
     required: true,
   },
-  url:  {
+  url: {
     type: String,
     required: true,
   },
@@ -17,6 +17,10 @@ const blogSchema = mongoose.Schema({
     type: Number,
     required: true,
     default: 0,
+  },
+  user: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: "User",
   },
 });
 
